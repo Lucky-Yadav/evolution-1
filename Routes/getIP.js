@@ -8,6 +8,6 @@ getIP.get("/", (req, res) => {
 });
 
 
-// getIP.post("/getmeip", getmeIP);
+getIP.post("/getmeip", getmeIP);
 
 module.exports = getIP;
