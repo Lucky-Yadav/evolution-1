@@ -1,5 +1,5 @@
 const express = require("express");
-const dataPath = require("../../products.json");
+const dataPath = require("../products.json");
 const Product = dataPath.products;
 
 async function getProducts(req, res) {
