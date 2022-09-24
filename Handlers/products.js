@@ -17,6 +17,7 @@ async function createProduct(req, res) {
 
 async function patchProduct(req, res) {
   const productData = req.body;
+  
   const { id: productId } = req.params;
 
   return res.send("Your data Updated");
